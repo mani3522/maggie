@@ -1,0 +1,17 @@
+curl
+
+command-line parser in curl always parses the entire line and you can put the options anywhere you like
+
+-v (--verbose) to provide many information from software & hardware level on what the command is doing
+
+-X [your method]
+X lets you override the default 'Get'
+
+
+-H
+
+
+-C restarting the download using -C option
+
+
+curl example.com -o example.txt

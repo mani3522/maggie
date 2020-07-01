@@ -1,0 +1,54 @@
+linux commands
+
+1. To remove all files that matches certain condition
+ls | grep cert | xargs rm -f
+
+
+2. to open output into vim
+grep pattern | vim -
+
+
+after then you save with escape :w filename, so it will save the file
+
+:set hlsearch
+
+---
+
+
+tee command
+--------------
+both outputs the data and write the data into the file simulatenously
+
+where as, > commands only writes the output ..
+
+
+-a to append .. a for append man ..
+
+when you do > you might not known, whether it is outputting the data .. so , tee will show it in UI beautifully
+
+change ownership
+--------------------
+sudo chown -R mnarayanaswamy /usr/local/
+
+
+
+
+tomnomnom
+---------
+to run the shell command in the vim itself
+escape
+
+%!
+
+% - current file
+! run this in the shell
+
+:%! sed 's/\/freshteam/\/freshworks\/freshteam/'
+
+----------------------------
+
+uname -a --> system kernel information
+df - disk free
+
+
+dmesg --> all process commands history

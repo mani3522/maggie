@@ -1,0 +1,34 @@
+vim commands
+---------------
+escape + A - Go to end of line
+escape + u - undo
+
+H – Go to the first line of current screen.
+M – Go to the middle line of current screen.
+L – Go to the last line of current screen.
+
+
+
+vi temp.txt
+:w !chmod 777 %
+:wq!
+:w to search
+:%! linux command --> to write the same thing into buffer
+!! -> two times ! , we can replace the command output to the vim
+
+:.! which bash
+
+jq - command line JSON parser
+
+
+to decode the base64 lines
+---------------------------
+:%!xargs -n1 -I{} sh -c 'echo {} | base64 -d'
+
+
+sed 's/^.\{5\}//g' logfile - remove 5 characters from each line
+
+sed 's/.*:http/http/' -- replacing the waybackurls , remove all the characters before the regex and replact
+
+
+whois DOMAIN | grep -E '^nserver|^Name Server'

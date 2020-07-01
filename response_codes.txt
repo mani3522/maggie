@@ -1,0 +1,15 @@
+response codes
+
+
+200 - sucess
+201 - put success
+
+
+301 - moved permanently
+302 - redirected
+
+400 bad request, , The 400 Bad Request Error is an HTTP response status code that indicates that the server was unable to process the request sent by the client due to invalid syntax
+
+403 - unauthorized
+404 - record not found
+422 - unprocessable entry

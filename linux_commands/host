@@ -1,0 +1,5 @@
+host example.command
+
+host -t CNAME invalid.asfdadf.com
+
+if it is an CNAME , it will come , 

@@ -1,0 +1,8 @@
+Tomnomnom bash
+https://www.youtube.com/watch?v=s9w0KutMorE
+
+1. &> --> give the output of the command
+/dev/null --> dont worry about the output
+
+
+2. echo $?

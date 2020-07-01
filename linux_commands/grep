@@ -1,0 +1,18 @@
+grep
+
+
+
+grep command
+--------------
+
+grep -Hnri uber
+
+-H filename
+n line number
+r recursive
+i case insensitive
+-l only give the filename
+
+-v you dont want the cotent ,, filter
+
+grep pattern | vim -
